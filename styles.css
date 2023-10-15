@@ -1,0 +1,65 @@
+ body {  
+   
+    background: linear-gradient(285deg, rgba(180, 132, 242, 0.75) 9.28%, rgba(104, 28, 204, 0.75) 21.1%,
+     rgba(13, 6, 86, 0.75) 29.1%, rgba(1, 7, 85, 0.75) 35.62%, rgba(1, 0, 58, 0.75) 40.57%, 
+     rgba(0, 0, 0, 0.72) 49.03%, rgba(39, 2, 73, 0.75) 59.82%, rgba(48, 6, 92, 0.75) 68.46%,
+      rgba(68, 10, 127, 0.75) 73.05%, rgba(104, 28, 204, 0.75) 80.58%, rgba(157, 93, 240, 0.75) 92.88%),
+       linear-gradient(295deg, #0A0F80 63.8%, rgba(78, 131, 236, 0.00) 86.38%);
+   background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.site-footer {
+   background-color: #fff; /* Set your desired background color */
+   color: #333;
+   text-align: center;
+   padding: 10px 20 px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.header-text {
+
+   font-family: Lato;
+   text-align: center;
+   text-decoration: double;
+   color: black;
+   
+}
+
+.navbar {
+   background-color: #fff; /* Set your desired background color */
+   color: #333;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px ;
+}
+
+.navbar-left {
+   display: flex;
+   align-items: center;
+}
+
+.navbar-right {
+   display: flex;
+}
+
+.logo img {
+   max-height: 40px;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #333;
+   margin: 0 15px;
+}
+
+/* Style for links on hover */
+.nav-link:hover {
+   text-decoration: underline;
+}
